@@ -1,0 +1,126 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+  
+}
+
+#portfolioL{
+  flex: 4;
+}
+.sc-iqcoie{
+  height: 100%;
+}
+.App img{
+  width: 100%;
+}
+@media(min-width: 1300px){
+  .App img{
+    width: 80%;
+  }
+}
+
+@media(max-width:762px){
+  .sc-ftvSup{
+        height: 100% !important;
+  }
+  .App button{
+    display: none;
+  }
+}
+
+@media(max-width:992px){
+  .App{
+    width: 100vw;
+  }
+}
+
+.App button{
+  display: none;
+}
+
+.App-back .item{
+  height: 300px;
+  
+}
+.App-back{
+  position: relative;
+}
+
+.App-back .item p{
+  font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: "Tajawal",sans-serif;
+   
+}
+@media(max-width:762px){
+  .App-back .item p{
+    position: absolute !important;
+  bottom: -3rem !important;
+}
+}
+
+.App-back .item img{
+  cursor: pointer;
+  height: 150px;
+}
+.App-back{
+  background-color: #2D1D5B;
+  height: 80vh;
+}
+.App-back button{
+  display: block ;
+  background-color: inherit;
+  border: none;
+  color: #EE1B5E;
+}
+@media(max-width:762px){
+  .custom-img{
+    width: 90% !important;
+  }
+}
+
+
+@media(max-width:992px){
+  .App-back .sc-eCYdqJ .rec-arrow-left{
+    display: none;
+  }
+  .App-back .sc-eCYdqJ .rec-arrow-right{
+    display: none;
+  }
+  .App-back .kdCslO{
+    display: none;
+  }
+  .App-back{
+    width: 100vw;
+  }
+}
+
+#portfolio h1{
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.ril-inner{
+  overflow: scroll;
+}
+.ril-inner img{
+  position: absolute;
+  bottom: unset;
+  touch-action: revert;
+
+}
+
+@media(max-width:762px){
+.eLPooy{
+  height: 230px !important;
+
+}
+}
